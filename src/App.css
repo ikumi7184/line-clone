@@ -62,7 +62,7 @@ p {
   float: right;
 }
 
-.received {
+.receive {
   background-color: #fafafa;
   border-top-left-radius: 500px;
   float: left;
@@ -87,6 +87,10 @@ p {
   margin: 110px 0;
   display: flex;
   flex-direction: column;
+}
+
+.send_icon {
+  cursor: pointer;
 }
 
 @media (max-width: 775px) {
